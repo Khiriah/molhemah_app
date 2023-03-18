@@ -1,0 +1,1 @@
+String baseUrl = 'https://experimental.willow.vectara.io/v1/chat/completions';

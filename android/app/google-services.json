@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "994401444079",
+    "project_id": "ecom-e55f5",
+    "storage_bucket": "ecom-e55f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994401444079:android:3f49b090ed19fc5b45fb1a",
+        "android_client_info": {
+          "package_name": "com.example.advisor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994401444079-f44i4507df5e7joq0v233eoh6msu1edi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMUk1MapZ1_C7GK6D5UsRb3QdsYJDBTzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994401444079-f44i4507df5e7joq0v233eoh6msu1edi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "994401444079-680v1k3p0vj102jc2bkbvr4uef17rgi4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.booking"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994401444079:android:22721ce084a2ba1845fb1a",
+        "android_client_info": {
+          "package_name": "com.example.booking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994401444079-f44i4507df5e7joq0v233eoh6msu1edi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMUk1MapZ1_C7GK6D5UsRb3QdsYJDBTzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994401444079-f44i4507df5e7joq0v233eoh6msu1edi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "994401444079-680v1k3p0vj102jc2bkbvr4uef17rgi4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.booking"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994401444079:android:955d07c79ef671ea45fb1a",
+        "android_client_info": {
+          "package_name": "com.example.eco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994401444079-f44i4507df5e7joq0v233eoh6msu1edi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMUk1MapZ1_C7GK6D5UsRb3QdsYJDBTzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994401444079-f44i4507df5e7joq0v233eoh6msu1edi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "994401444079-680v1k3p0vj102jc2bkbvr4uef17rgi4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.booking"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
