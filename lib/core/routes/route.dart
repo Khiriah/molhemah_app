@@ -9,12 +9,13 @@ import 'package:advisor/features/profile/view/screen/new_pasword_screen.dart';
 import 'package:advisor/features/profile/view/screen/perssonal_information.dart';
 import 'package:advisor/features/profile/view/screen/profile_screen.dart';
 import 'package:advisor/home/view/screen/home_screen.dart';
+import 'package:advisor/splash/splash_binding.dart';
+import 'package:advisor/splash/splash_screen.dart';
 import 'package:get/get.dart';
 import '../binding/binding.dart';
 
 class AppRoutes {
-  static const home = Routes.homeScreen;
-  static const login = Routes.loginScreen;
+  static const splash = Routes.splashScreen;
   static final routes = [
     GetPage(
       name: Routes.homeScreen,
@@ -61,6 +62,10 @@ class AppRoutes {
         name: Routes.personalInformation,
         page: () =>  PersonalInformationScreen(),
         binding: Binding()),
+    GetPage(
+        name: Routes.splashScreen,
+        page: () =>  SplashScreen(),
+        binding: SplashBinding()),
   ];
 }
 
@@ -76,5 +81,6 @@ class Routes {
   static const profileScreen = '/profile_screen';
   static const logInWithPhoneScreen = '/login_with_phone_screen';
   static const personalInformation = '/personal_information';
+  static const splashScreen = '/splash_screen';
 
 }

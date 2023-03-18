@@ -31,10 +31,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeController().themeDataGet,
       theme: ThemeApp.lightTheme,
       darkTheme: ThemeApp.darkTheme,
-      initialRoute:  FirebaseAuth.instance.currentUser != null ||
-          GetStorage().read<bool>(AppKeys.authKey) == true
-          ? AppRoutes.home
-          : AppRoutes.login,
+      initialRoute: AppRoutes.splash,
       getPages: AppRoutes.routes,
     );
   }

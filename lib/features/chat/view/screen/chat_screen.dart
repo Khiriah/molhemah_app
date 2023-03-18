@@ -1,61 +1,93 @@
+import 'package:advisor/core/constants/app_image.dart';
 import 'package:advisor/features/chat/logic/controller/chat_controller.dart';
 import 'package:advisor/features/chat/view/widget/flat_action_btn.dart';
 import 'package:advisor/features/chat/view/widget/flat_chat_message.dart';
 import 'package:advisor/features/chat/view/widget/flat_message_input_box.dart';
-import 'package:advisor/features/chat/view/widget/flat_page_wrapper.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:intl/intl.dart';
 
 class ChatScreen extends StatelessWidget {
-   ChatScreen({Key? key}) : super(key: key);
-  final chatController = Get.put(ChatController());
-   var now = DateTime.now();
+  const ChatScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
-    return FlatPageWrapper(
-      scrollType: ScrollType.floatingHeader,
-      reverseBodyList: true,
-      footer: FlatMessageInputBox(
-        prefix: FlatActionButton(
-          iconData: Icons.add,
-          onPressed: () {},
-        ),
-        roundedCorners: true,
-        suffix: FlatActionButton(
-          iconData: Icons.image,
-          onPressed: () {},
-        ),
+    var format = DateFormat('MMMM d, y - hh:mm aa');
+    var now = format.format(DateTime.now());
+    final chatController = Get.put(ChatController());
+    return GetBuilder<ChatController>(
+      builder: (chatController) => Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Column(children: [
+          Expanded(
+            child: ListView.separated(
+              itemCount: chatController.userMessage.length,
+              itemBuilder: ((context, index) {
+                return Column(
+                  children: [
+                    Column(
+                      children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: [
+                            FlatChatMessage(
+                              message: chatController.userMessage[index],
+                              messageType: MessageType.sent,
+                              showTime: true,
+                              time: now.toString(),
+                            ),
+                            CircleAvatar(
+                              backgroundImage: AssetImage(
+                                AppImages.personV,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                    const SizedBox(
+                      height: 10,
+                    ),
+                    Row(
+                      children: [
+                        CircleAvatar(
+                          backgroundImage: AssetImage(
+                            AppImages.girlV,
+                          ),
+                        ),
+                        FlatChatMessage(
+                          message: chatController.token[index],
+                          showTime: true,
+                          time: now.toString(),
+                        ),
+                      ],
+                    ),
+                  ],
+                );
+              }),
+              separatorBuilder: (context, index) => const SizedBox(
+                height: 10,
+              ),
+            ),
+          ),
+          Column(
+            children: [
+              FlatMessageInputBox(
+                prefix: FlatActionButton(
+                  iconData: Icons.add,
+                  onPressed: () {},
+                ),
+                roundedCorners: true,
+                suffix: FlatActionButton(
+                  iconData: Icons.image,
+                  onPressed: () {},
+                ),
+              ),
+              const SizedBox(height: 10,)
+            ],
+          ),
+        ]),
       ),
-      children: [
-        FlatChatMessage(
-          message:
-              "Yes, I'm here with you. I will be your friend, and get a fun time playing together. You are not alone. And I'll help you .   ",
-          showTime: true,
-          time: "2 mins ago",
-        ),
-        FlatChatMessage(
-          message: "Can You help me?",
-          messageType: MessageType.sent,
-          showTime: true,
-          time: "2 mins ago",
-        ),
-        FlatChatMessage(
-          message: "I am tired !!",
-          messageType: MessageType.sent,
-          showTime: true,
-          time: "2 mins ago",
-        ),
-        FlatChatMessage(
-          message: "How Are You?",
-          showTime: true,
-          time: "2 mins ago",
-        ),
-        FlatChatMessage(
-          message: "Hi Khairiah",
-          showTime: true,
-          time: "2 mins ago",
-        ),
-      ],
     );
   }
 }

@@ -137,14 +137,14 @@ class SignUpScreen extends StatelessWidget {
                           ),
                           label: 'Confirm Password',
                         ),
-                        CheckBoxWidget(
-                          value: authController.isChecked,
-                          onChanged: (bool? value) {
-                            authController.checkBox(value!);
-                          },
-                          title: 'I accept',
-                          supTitle: 'Terms & Conditions',
-                        ),
+                        // CheckBoxWidget(
+                        //   value: authController.isChecked,
+                        //   onChanged: (bool? value) {
+                        //     authController.checkBox(value!);
+                        //   },
+                        //   title: 'I accept',
+                        //   supTitle: 'Terms & Conditions',
+                        // ),
                         ElevatedButton(
                           onPressed: () async {
                             await authController.signUpWithEmail(

@@ -1,6 +1,5 @@
 import 'package:advisor/core/constants/colors_app.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
 enum MessageType { sent, received }
 
@@ -14,8 +13,8 @@ class FlatChatMessage extends StatelessWidget {
   final double? maxWidth;
   final double? minWidth;
 
-  FlatChatMessage(
-      {this.message,
+  const FlatChatMessage(
+      {super.key, this.message,
       this.messageType,
       this.backgroundColor,
       this.textColor,
@@ -60,7 +59,7 @@ class FlatChatMessage extends StatelessWidget {
     if (showTime != null && showTime == true) {
       return Text(
         time ?? "Time",
-        style: TextStyle(
+        style: const TextStyle(
           fontSize: 12.0,
           color: Color(0xFF666666),
         ),
@@ -73,7 +72,7 @@ class FlatChatMessage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.symmetric(
+      padding: const EdgeInsets.symmetric(
         vertical: 12.0,
         horizontal: 24.0,
       ),
@@ -88,11 +87,11 @@ class FlatChatMessage extends StatelessWidget {
               borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(topLeftRadius()),
                 topRight: Radius.circular(topRightRadius()),
-                bottomLeft: Radius.circular(12.0),
-                bottomRight: Radius.circular(12.0),
+                bottomLeft: const Radius.circular(12.0),
+                bottomRight: const Radius.circular(12.0),
               ),
             ),
-            padding: EdgeInsets.symmetric(
+            padding: const EdgeInsets.symmetric(
               vertical: 12.0,
               horizontal: 16.0,
             ),
