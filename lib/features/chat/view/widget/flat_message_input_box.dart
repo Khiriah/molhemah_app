@@ -8,13 +8,10 @@ class FlatMessageInputBox extends StatelessWidget {
   final Widget? prefix;
   final Widget? suffix;
   final bool? roundedCorners;
-  // final Function()? onChanged;
-  // final Function()? onSubmitted;
-  FlatMessageInputBox({
+  FlatMessageInputBox({super.key,
     this.prefix,
     this.suffix,
     this.roundedCorners,
-    // required this.onChanged,required this.onSubmitted
   });
   final chatController = Get.put(ChatController());
   @override
@@ -26,7 +23,6 @@ class FlatMessageInputBox extends StatelessWidget {
         return 0.0;
       }
     }
-
     return Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(cornerRadius()),
@@ -55,9 +51,7 @@ class FlatMessageInputBox extends StatelessWidget {
                 ),
             Expanded(
               child: TextFormField(
-                // controller: chatController.chatController,
-                // onChanged: onChanged,
-                // onSubmitted: onSubmitted,
+                controller: chatController.chatController,
                 decoration: InputDecoration(
                   hintText: "Enter Message...",
                   hintStyle: TextStyle(
@@ -82,10 +76,10 @@ class FlatMessageInputBox extends StatelessWidget {
                 size: 24.0,
               ),
               onPressed: ()async {
-                await chatController.postContent(
-                  content: chatController.chatController.text,
-                );
-              },
+                await chatController
+        .makePostRequest(chatController.chatController.text);
+    chatController.chatController.clear();
+    },
             ),
           ],
         ),
