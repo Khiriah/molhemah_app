@@ -1,16 +1,10 @@
-# advisor
+# Molhemah App
 
-A new Flutter project.
+Molhemah app frontend created with Flutter backend created with ChtGPT Api.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+![iphone-12-pro-mockups-64122211c53b981638a9dba8@2x](https://user-images.githubusercontent.com/92297044/226091529-f38818e6-1335-4df0-98cf-457dd31af68e.png)
 
-A few resources to get you started if this is your first Flutter project:
+# Files Structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+MVC pattern used in this project.
