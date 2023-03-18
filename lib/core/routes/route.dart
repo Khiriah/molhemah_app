@@ -64,7 +64,7 @@ class AppRoutes {
         binding: Binding()),
     GetPage(
         name: Routes.splashScreen,
-        page: () =>  SplashScreen(),
+        page: () =>  const SplashScreen(),
         binding: SplashBinding()),
   ];
 }

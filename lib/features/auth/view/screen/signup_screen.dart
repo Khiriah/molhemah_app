@@ -2,7 +2,6 @@ import 'package:advisor/common/text_field_widget.dart';
 import 'package:advisor/core/constants/app_image.dart';
 import 'package:advisor/core/constants/validation.dart';
 import 'package:advisor/core/routes/route.dart';
-import 'package:advisor/features/auth/view/widget/checkbox_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

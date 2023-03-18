@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get_rx/src/rx_types/rx_types.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 import 'package:get_storage/get_storage.dart';
- import 'package:http/http.dart';
+import 'package:http/http.dart';
 
 
 class ChatController extends GetxController

@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		iUQX9HSr4Y/ORW9lIpobH7FtS5c=
+		7NflwiAQ8FVZ6rugLcA3BJsxxX0=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		KhP5gqxsqqoDLFQeYiejavXsRnE=
+		jYKEF1ckj7UJdqGhik9+XjB/aBM=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		p9/G8KA/Nv7GiI2/p7m1PwrW5BA=
+		rNkI/86KxRK3dTUOXgk72TKKJE4=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -262,7 +262,7 @@
 		</data>
 		<key>Frameworks/FirebaseAuth.framework/FirebaseAuth</key>
 		<data>
-		IIuRBeTNBYraE8jL9YWAX3MqO2k=
+		R/kXVa006W/2R4EYgfH3EXgfXDA=
 		</data>
 		<key>Frameworks/FirebaseAuth.framework/Info.plist</key>
 		<data>
@@ -274,7 +274,7 @@
 		</data>
 		<key>Frameworks/FirebaseCore.framework/FirebaseCore</key>
 		<data>
-		FYEGMRYYRGcvWEU3cIQxp+1KPeI=
+		b6zByheiPAEtYsVR/45IV1Ep+mk=
 		</data>
 		<key>Frameworks/FirebaseCore.framework/Info.plist</key>
 		<data>
@@ -298,7 +298,7 @@
 		</data>
 		<key>Frameworks/FirebaseFirestore.framework/FirebaseFirestore</key>
 		<data>
-		rUXL65O+X7+RCf+MvgVwmbFH+5A=
+		QG5oHYkPKX1WyOx/vDsZNSwGK/g=
 		</data>
 		<key>Frameworks/FirebaseFirestore.framework/Info.plist</key>
 		<data>
@@ -394,7 +394,7 @@
 		</data>
 		<key>Frameworks/GTMAppAuth.framework/GTMAppAuth</key>
 		<data>
-		1WFL/Cdy09/mMrelDObIPUqoy+c=
+		t+UN4MyGQqUnGamvlyAUXPifLa0=
 		</data>
 		<key>Frameworks/GTMAppAuth.framework/Info.plist</key>
 		<data>
@@ -418,7 +418,7 @@
 		</data>
 		<key>Frameworks/GoogleSignIn.framework/GoogleSignIn</key>
 		<data>
-		MFbOJs/foxpOVCNJ/LmDHLgto24=
+		D+s0pDZ/XCxi/qK7y73R7pYvG3A=
 		</data>
 		<key>Frameworks/GoogleSignIn.framework/GoogleSignIn.bundle/Info.plist</key>
 		<data>
@@ -792,7 +792,7 @@
 		</data>
 		<key>Frameworks/GoogleUtilities.framework/GoogleUtilities</key>
 		<data>
-		tr95D5s49dcUdbhO+49uboXvmfI=
+		6EHiVYN5NneRl/iza4Klv8+sjaY=
 		</data>
 		<key>Frameworks/GoogleUtilities.framework/Info.plist</key>
 		<data>
@@ -1007,7 +1007,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PKitMt8kKVZoRlkuXIeC2lGLfoLOyU5sN+fia7q6MR0=
+			REA91d8HFgt7h5xtwAcOJlDIUdUOx+gEGsFnlpr75LU=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -1021,7 +1021,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iKHusCcFrhVKZImf12usgMccT8Qc7b2D2Vg2oA8drCE=
+			lO+5A4fgTcKnUzA02Icc9jq62AiYiO42ln9MOAlv9RQ=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
@@ -1168,7 +1168,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nD7THh2BpAJBmQipnRlYBohUk0Qx891LEM0KqpVs3j0=
+			vpEYznS7SitnPWqudVHaMhhI5i8RjC3R1vtkIO3UEhk=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -1385,7 +1385,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p8uI5MIKpJgYw1IUaB8zsgoKV9aM2E0LcfHMonicoJU=
+			XLh91F9XIz+B/hNm4YeoK2S9m/6PevhoBi3Hg9fSQ7k=
 			</data>
 		</dict>
 		<key>Frameworks/FirebaseAuth.framework/Info.plist</key>
@@ -1406,7 +1406,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oF3qh0E6zQh/rkhOBzJlfwn8W5j7BmTV9CbDduzbyqg=
+			c1XHPP+PDLa0SftCgAKPnUfpS/JfUd5hdm37Txvq3LM=
 			</data>
 		</dict>
 		<key>Frameworks/FirebaseCore.framework/Info.plist</key>
@@ -1448,7 +1448,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OGfw71kS1Y/QUhFSqUOCin3WhYrVnYenMdejSly336A=
+			p9lklhx3kM4GYiXJTnAz5yOZKkIquzuJjeB6QRKMISc=
 			</data>
 		</dict>
 		<key>Frameworks/FirebaseFirestore.framework/Info.plist</key>
@@ -1616,7 +1616,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3DoY2oDh2a1/II564/oByo3PLXjeNla7iJYmNSq/98Q=
+			87ADgFT7W33UN5KADJ3oRrISZzNS+o+URD1545qLYFM=
 			</data>
 		</dict>
 		<key>Frameworks/GTMAppAuth.framework/Info.plist</key>
@@ -1658,7 +1658,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RqsL/ugH6NPvfK6UG2Z6OzkJ0GQjvdvnkvXrDRd2t0Y=
+			WqHMM10+kz3wG9llfF+gnr2WTdMGbZNRJiNjhMt2mz4=
 			</data>
 		</dict>
 		<key>Frameworks/GoogleSignIn.framework/GoogleSignIn.bundle/Info.plist</key>
@@ -2056,7 +2056,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			255Mbjy+KBu1e2hxo+ajqc2WEUZMb6nW6MdRi+cYQuY=
+			TIhnMs98mvrrwd0A28qI6RixhlIbspSoA35MO94hKs8=
 			</data>
 		</dict>
 		<key>Frameworks/GoogleUtilities.framework/Info.plist</key>

@@ -9,7 +9,7 @@ class HomeController extends GetxController {
 
   var tabs = [
     DashBoardScreen(),
-    ChatScreen(),
+    const ChatScreen(),
     const VideoScreen(),
     ProfileScreen(),
   ].obs;

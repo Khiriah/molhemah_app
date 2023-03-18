@@ -1,4 +1,3 @@
-import 'package:advisor/core/constants/app_image.dart';
 import 'package:advisor/core/constants/keys.dart';
 import 'package:advisor/features/profile/model/profile_model.dart';
 import 'package:flutter/material.dart';
