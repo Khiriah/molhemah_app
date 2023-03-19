@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:advisor/core/constants/key.dart';
 import 'package:advisor/features/chat/model/ChatModel.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_rx/src/rx_types/rx_types.dart';
@@ -21,11 +22,11 @@ class ChatController extends GetxController
   var userMessage = [];
   Future<void> makePostRequest(input) async {
     final url =
-    Uri.parse('https://experimental.willow.vectara.io/v1/chat/completions');
+    Uri.parse(baseUrl);
     final headers = {
       'Content-Type': 'application/json',
       'customer-id': '4292810674',
-      'x-api-key': 'zqt__98Xsox_WOi0rPPSPXEJtMymGZXaytSTwGOF2A'
+      'x-api-key': APIKey
     };
     final json = jsonEncode(({
       "model": "gpt-3.5-turbo",
@@ -36,9 +37,9 @@ class ChatController extends GetxController
     final response = await post(url, headers: headers, body: json);
     Map<String, dynamic> data = jsonDecode(response.body);
     token.add(data["choices"][0]["message"]['content']);
-    print('Status code: ${response.statusCode}');
-    print('Body: ${response.body}');
-    print(token);
+    // print('Status code: ${response.statusCode}');
+    // print('Body: ${response.body}');
+    // print(token);
     userMessage.add(chatController.text);
     update();
   }
